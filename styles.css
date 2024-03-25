@@ -279,6 +279,7 @@ nav {
 .stats__image {
   display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .stats__image img {
@@ -293,7 +294,7 @@ nav {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("assets/banner.jpg");
+    url("assets/SETP\ ppt.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -332,6 +333,8 @@ nav {
 .blog__card img {
   margin-bottom: 1rem;
   border-radius: 5px;
+  height: 60%;
+  width: 100%;
 }
 
 .blog__card > div {
@@ -578,7 +581,7 @@ nav {
   }
 }
 
-@media (width < 600px) {
+@media (width < 480px) {
   nav {
     position: fixed;
     width: 100%;
@@ -637,3 +640,5 @@ nav {
     width: 100%;
   }
 }
+
+
